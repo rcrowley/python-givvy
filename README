@@ -1,0 +1,38 @@
+NAME
+	python-givvy -- Python bindings to the Givvy API
+
+SYNOPSIS
+	from givvy import Givvy
+	g = Givvy('OH HAI', 'OH NOES')
+	g.authNewSession()
+	g.charityGet(ein)
+	g.search(query='food')
+	g.authEndSession()
+
+DESCRIPTION
+	Python bindings to the Givvy API, a fairly comprehensive source of
+	information on American non-profit organizations.  You need your
+	own API key and secret, available from http://givvy.com/.
+
+INSTALLATION
+	Download or checkout python-givvy onto your Python path as "givvy".
+
+DEPENDENCIES
+	Python 2.5 <http://python.org/>
+
+VERSION
+	0.1
+
+DATE
+	2009-02-19
+
+AUTHOR
+	Richard Crowley <r@rcrowley.org>
+
+SEE ALSO
+	<http://givvy.com/apidoc>
+
+LICENSE
+	This work is licensed under a Creative Commons
+	Attribution-Share Alike 3.0 Unported License
+	<http://creativecommons.org/licenses/by-sa/3.0/>
